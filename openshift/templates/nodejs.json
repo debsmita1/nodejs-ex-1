@@ -1,6 +1,6 @@
 {
   "kind": "Template",
-  "apiVersion": "v1",
+  "apiVersion": "template.openshift.io/v1",
   "metadata": {
     "name": "nodejs-example",
     "annotations": {
@@ -45,7 +45,7 @@
     },
     {
       "kind": "Route",
-      "apiVersion": "v1",
+      "apiVersion": "route.openshift.io/v1",
       "metadata": {
         "name": "${NAME}"
       },
@@ -59,7 +59,7 @@
     },
     {
       "kind": "ImageStream",
-      "apiVersion": "v1",
+      "apiVersion": "image.openshift.io/v1",
       "metadata": {
         "name": "${NAME}",
         "annotations": {
@@ -69,7 +69,7 @@
     },
     {
       "kind": "BuildConfig",
-      "apiVersion": "v1",
+      "apiVersion": "build.openshift.io/v1",
       "metadata": {
         "name": "${NAME}",
         "annotations": {
@@ -135,7 +135,7 @@
     },
     {
       "kind": "DeploymentConfig",
-      "apiVersion": "v1",
+      "apiVersion": "apps.openshift.io/v1",
       "metadata": {
         "name": "${NAME}",
         "annotations": {
@@ -234,8 +234,8 @@
     {
       "name": "NODEJS_VERSION",
       "displayName": "Version of NodeJS Image",
-      "description": "Version of NodeJS image to be used (10, 12, or latest).",
-      "value": "12",
+      "description": "Version of NodeJS image to be used (12-ubi8, 14-ubi8, or latest).",
+      "value": "14-ubi8",
       "required": true
     },
     {

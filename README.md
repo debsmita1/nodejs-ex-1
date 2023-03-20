@@ -61,7 +61,7 @@ Red Hat periodically publishes OpenShift Origin Server binaries for Linux, which
 
 #### Running an Ansible playbook
 
-Outlined as the [Advanced Installation](https://docs.okd.io/latest/install_config/install/advanced_install.html) method for poduction environments, OpenShift Origin is also installable via Ansible playbook made avaialble on the GitHub [openshift-ansible](https://github.com/openshift/openshift-ansible) repo.
+Outlined as the [Advanced Installation](https://docs.okd.io/latest/install_config/install/advanced_install.html) method for production environments, OpenShift Origin is also installable via Ansible playbook made available on the GitHub [openshift-ansible](https://github.com/openshift/openshift-ansible) repo.
 
 
 ### Creating a project
