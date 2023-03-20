@@ -8,7 +8,7 @@ metadata:
     backstage.io/view-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
     backstage.io/edit-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
     backstage.io/source-location: url:https://github.com/debsmita1/nodejs-ex-1
-    tektonci/build-namespace: deb
+    tektonci/build-namespace: dsantra12-dev
   name: my-backstage-component
 spec:
   lifecycle: production
