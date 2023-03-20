@@ -2,16 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    backstage.io/kubernetes-id: my-kubernetes-component
-    github.com/project-slug: lokeshrangineni/backstage-demo-k8-sample-component
+    backstage.io/kubernetes-id: my-backstage-component
+    github.com/project-slug: debsmita1/nodejs-ex-1
     github.com/project-readme-path: README.md
-    backstage.io/view-url: https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
-    backstage.io/edit-url: https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/catalog-info.yaml
-    backstage.io/source-location: url:https://github.com/lokeshrangineni/backstage-demo-k8-sample-component
-    tektonci/build-namespace: loki-backstage
-    argocd/app-name: sockshop
-    backstage.io/techdocs-ref: url:https://github.com/lokeshrangineni/backstage-demo-k8-sample-component/blob/main/README.md
-  name: my-kubernetes-component
+    backstage.io/view-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
+    backstage.io/edit-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/debsmita1/nodejs-ex-1
+    tektonci/build-namespace: deb
+  name: my-backstage-component
 spec:
   lifecycle: production
   owner: my-team
