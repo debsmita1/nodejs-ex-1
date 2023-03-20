@@ -6,8 +6,8 @@ metadata:
     github.com/project-slug: debsmita1/nodejs-ex-1
     github.com/project-readme-path: README.md
     backstage.io/view-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
-    backstage.io/edit-url:  https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
-    backstage.io/source-location: url: https://github.com/debsmita1/nodejs-ex-1
+    backstage.io/edit-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/debsmita1/nodejs-ex-1
     tektonci/build-namespace: deb
   name: my-backstage-component
  spec:
