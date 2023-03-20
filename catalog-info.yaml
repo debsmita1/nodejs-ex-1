@@ -10,7 +10,7 @@ metadata:
     backstage.io/source-location: url: https://github.com/debsmita1/nodejs-ex-1
     tektonci/build-namespace: deb
   name: my-backstage-component
-spec:
+ spec:
   lifecycle: production
   owner: my-team
   type: service
