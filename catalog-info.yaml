@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/kubernetes-id: my-kubernetes-component
+    github.com/project-slug: debsmita/backstage-tekton-sample-component
+    github.com/project-readme-path: README.md
+    backstage.io/view-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
+    backstage.io/edit-url:  https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
+    backstage.io/source-location: url: https://github.com/debsmita1/nodejs-ex-1
+    tektonci/build-namespace: deb
+  name: my-kubernetes-component
+spec:
+  lifecycle: production
+  owner: my-team
+  type: service
