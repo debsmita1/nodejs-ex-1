@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  labels: 
+    component: backstage-workloads
+  annotations:
+    github.com/project-slug: debsmita1/nodejs-ex-1
+    backstage.io/kubernetes-id: dev-sandbox
+    backstage.io/kubernetes-namespace: dsantra12-dev
+spec:
+  type: service
+  lifecycle: unknown
+  owner: temp-d
