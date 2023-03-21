@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-w
+  name: test-backstage
   labels: 
     component: backstage-workloads
   annotations:
