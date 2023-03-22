@@ -6,7 +6,7 @@ metadata:
     component: backstage-workloads
   annotations:
     github.com/project-slug: debsmita1/nodejs-ex-1
-    backstage.io/kubernetes-id: openshift-cluster
+    backstage.io/kubernetes-id: test-backstage
     backstage.io/kubernetes-namespace: deb-test
 spec:
   type: service
