@@ -1,16 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: test-backstage1
+  labels: 
+    component: backstage-workloads
   annotations:
-    backstage.io/kubernetes-id: my-backstage-component
-    github.com/project-slug: debsmita1/nodejs-ex-1
-    github.com/project-readme-path: README.md
-    backstage.io/view-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
-    backstage.io/edit-url: https://github.com/debsmita1/nodejs-ex-1/new/master/catalog-info.yaml
-    backstage.io/source-location: url:https://github.com/debsmita1/nodejs-ex-1
-    tektonci/build-namespace: dsantra12-dev
-  name: my-backstage-component
+    backstage.io/kubernetes-id: test-backstage1
+    janus-idp.io/tekton-enabled: 'true'
+    #dev.azure.com/project-repo: my-project/my-repo
 spec:
-  lifecycle: production
-  owner: my-team
   type: service
+  lifecycle: unknown
+  owner: temp-d
