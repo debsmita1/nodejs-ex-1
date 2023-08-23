@@ -10,6 +10,7 @@ metadata:
     backstage.io/kubernetes-id: test-backstage
     janus-idp.io/tekton-enabled: 'true'
     #dev.azure.com/project-repo: my-project/my-repo
+    backstage.io/techdocs-ref: url:https://github.com/debsmita1/nodejs-ex-1/tree/master
 spec:
   type: service
   lifecycle: unknown

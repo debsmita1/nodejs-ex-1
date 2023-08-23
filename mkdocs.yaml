@@ -5,7 +5,7 @@ edit_uri: edit/master/docs
 nav:
   - Home: index.md
   - Guide:
-    - Installation: app/install.md
+    - Installation: app/getting-started.md
 
 plugins:
   - techdocs-core
