@@ -7,7 +7,7 @@ metadata:
   annotations:
     quay.io/repository-slug: janus-idp/backstage-showcase
     backstage.io/kubernetes-id: my-backstage
-    backstage.io/kubernetes-label-selector: 'backstage-component=my-backstage'
+    backstage.io/kubernetes-label-selector: 'component in (my-backstage,che)'
     janus-idp.io/tekton-enabled: 'true'
     #dev.azure.com/project-repo: my-project/my-repo
     backstage.io/techdocs-ref: dir:.
