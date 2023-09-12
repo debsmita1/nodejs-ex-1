@@ -5,12 +5,16 @@ metadata:
   labels: 
     component: backstage-workloads
   annotations:
-    #github.com/project-slug: debsmita1/app-1
     quay.io/repository-slug: janus-idp/backstage-showcase
     backstage.io/kubernetes-id: nodejs-backstage
+    backstage.io/kubernetes-label-selector: 'backstage-component in (test-backstage)'
     janus-idp.io/tekton-enabled: 'true'
     #dev.azure.com/project-repo: my-project/my-repo
     backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: janus-idp/backstage-showcase
+    backstage.io/techdocs-ref: dir:.
+    'jfrog-artifactory/image-name': 'test'
+    nexus-repository-manager/docker.image-name: sonatype/nexus3
 spec:
   type: service
   lifecycle: unknown
