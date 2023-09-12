@@ -12,7 +12,6 @@ metadata:
     #dev.azure.com/project-repo: my-project/my-repo
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: janus-idp/backstage-showcase
-    backstage.io/techdocs-ref: dir:.
     'jfrog-artifactory/image-name': 'test'
     nexus-repository-manager/docker.image-name: sonatype/nexus3
 spec:
