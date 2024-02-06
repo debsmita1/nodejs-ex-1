@@ -18,28 +18,3 @@ spec:
   type: service
   lifecycle: unknown
   owner: Debsmita
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: my-team
-  description: Debsmita's Team
-spec:
-  type: team
-  profile:
-    displayName: Debsmita's Team
-    email: team-c@example.com
-    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Loki&backgroundType=gradientLinear&backgroundColor=b6e3f4,ffd5dc,ffdfbf,c0aede
-  parent: boxoffice
-  children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: debsmita1
-spec:
-  profile:
-    displayName: Debsmita Santra
-    email: dsantra@redhat.com
-    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Bear&backgroundColor=transparent
-  memberOf: [my-team]
