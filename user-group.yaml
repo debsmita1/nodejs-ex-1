@@ -12,7 +12,6 @@ spec:
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Loki&backgroundType=gradientLinear&backgroundColor=b6e3f4,ffd5dc,ffdfbf,c0aede
   parent: boxoffice
   children: []
-  members: [default/debsmita1]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
