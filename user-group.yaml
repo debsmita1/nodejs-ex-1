@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
+  namespace: xyz
   name: my-team
   description: Debsmita's Team
 spec:
@@ -15,6 +16,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  namespace: default
   name: debsmita1
 spec:
   profile:
