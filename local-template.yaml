@@ -64,6 +64,10 @@ spec:
       name: Add Timestamp to catalog-info.yaml
       action: catalog:timestamping
 
+    - id: append-templateRef
+      name: Append the entityRef of this template to the entityRef
+      action: catalog:scaffolded-from
+
     - id: publish
       name: Publish
       action: publish:github
