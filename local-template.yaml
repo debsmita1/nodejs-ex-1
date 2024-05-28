@@ -64,6 +64,17 @@ spec:
       name: Add Timestamp to catalog-info.yaml
       action: catalog:timestamping
 
+    - id: add-fields-to-catalog-info
+      name: Add a few fields into `catalog-info.yaml` using the generic action
+      action: catalog:annotate
+      input:
+        labels:
+          custom: ${{ parameters.label }}
+          other: "test-label"
+        annotations:
+          custom.io/annotation: ${{ parameters.label }}
+          custom.io/other: "value"
+
     - id: append-templateRef
       name: Append the entityRef of this template to the entityRef
       action: catalog:scaffolded-from
