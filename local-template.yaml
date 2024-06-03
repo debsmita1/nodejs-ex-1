@@ -1,9 +1,9 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: create-react-app-template-test-timestamp
-  title: Create React App Template with timestamping
-  description: Create a new CRA website project to test timestamp annotation
+  name: create-react-app-template-test-annotator
+  title: Create React App Template with annotations
+  description: Create a new CRA website project to test annotations
   tags:
     - react
     - cra
