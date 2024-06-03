@@ -60,6 +60,11 @@ spec:
           owner: ${{ parameters.owner }}
           # createdAt: ${{ steps.timestamp.output.timestamp}}
 
+
+    - id: timestamp
+      name: Add Timestamp to catalog-info.yaml
+      action: catalog:timestamping
+
     - id: publish
       name: Publish
       action: publish:github
