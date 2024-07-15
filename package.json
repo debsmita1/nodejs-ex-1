@@ -1,34 +1,70 @@
 {
-  "name": "nodejs-ex",
-  "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
-  "main": "server.js",
-  "dependencies": {
-    "chai": "^3.5.0",
-    "chai-http": "^2.0.1",
-    "ejs": "^2.4.1",
-    "express": "^4.13.4",
-    "mocha": "^2.4.5",
-    "mongodb": "^2.1.16",
-    "morgan": "^1.7.0",
-    "object-assign":"4.1.0"
+  "name": "@janus-idp/backstage-plugin-test-plugin-12-st",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "license": "Apache-2.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.esm.js",
+    "types": "dist/index.d.ts"
   },
-  "engine": {
-    "node": "*",
-    "npm": "*"
+  "backstage": {
+    "role": "frontend-plugin"
   },
+  "sideEffects": false,
   "scripts": {
-    "start": "node server.js",
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
+    "build": "backstage-cli package build",
+    "clean": "backstage-cli package clean",
+    "export-dynamic": "janus-cli package export-dynamic-plugin",
+    "lint": "backstage-cli package lint",
+    "postpack": "backstage-cli package postpack",
+    "postversion": "yarn run export-dynamic",
+    "prepack": "backstage-cli package prepack",
+    "start": "backstage-cli package start",
+    "test": "backstage-cli package test --passWithNoTests --coverage",
+    "tsc": "tsc"
   },
+  "dependencies": {
+    "@backstage/core-components": "^0.14.4",
+    "@backstage/core-plugin-api": "^1.9.2",
+    "@backstage/theme": "^0.5.5",
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.15.21",
+    "react-use": "^17.2.4"
+  },
+  "peerDependencies": {
+    "react": "16.13.1 || ^17.0.0 || ^18.0.0",
+    "react-router-dom": "^6.0.0"
+  },
+  "devDependencies": {
+    "@backstage/cli": "0.26.6",
+    "@backstage/core-app-api": "1.12.5",
+    "@backstage/dev-utils": "1.0.32",
+    "@backstage/test-utils": "1.5.5",
+    "@janus-idp/cli": "1.11.1",
+    "@testing-library/jest-dom": "6.0.0",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.0.0",
+    "msw": "1.0.0"
+  },
+  "files": [
+    "dist",
+    "config.d.ts",
+    "dist-scalprum",
+    "app-config.janus-idp.yaml"
+  ],
+  "configSchema": "config.d.ts",
   "repository": {
     "type": "git",
-    "url": "http://github.com/sclorg/nodejs-ex.git"
+    "url": "[object Object]",
+    "directory": "test-plugin-12-st"
   },
-  "author": "Steve Speicher <sspeiche@gmail.com>",
-  "license": "CC-BY-1.0",
-  "bugs": {
-    "url": "http://github.com/sclorg/nodejs-ex/issues"
-  },
-  "homepage": "http://github.com/sclorg/nodejs-ex"
+  "keywords": [
+    "backstage",
+    "plugin"
+  ]
 }
