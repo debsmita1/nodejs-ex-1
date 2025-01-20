@@ -13,7 +13,7 @@ metadata:
     github.com/project-slug: janus-idp/backstage-showcase
     'jfrog-artifactory/image-name': 'test'
     nexus-repository-manager/docker.image-name: sonatype/nexus3
-    google.com/docs-url: d/1oj4ZAU__IZgpYmLNSSSrb_k50NBXSS_bW_nKOswjcZQ
+    google.com/doc-id: d/1oj4ZAU__IZgpYmLNSSSrb_k50NBXSS_bW_nKOswjcZQ
 spec:
   type: service
   lifecycle: unknown
