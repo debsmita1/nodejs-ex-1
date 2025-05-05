@@ -1,12 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: rhdh-qe
-  title: RHDH QE Title
-  namespace: default
-displayName: RHDH QE DN
+  name: debsmita12
+  title: Debsmita Santra2
 spec:
   profile:
-    displayName: RHDH QE
-    email: rhdh-qe@example.com
+    displayName: Debsmita Santra2
   memberOf: [janus-authors]
