@@ -7,16 +7,4 @@ spec:
   profile:
     displayName: Debsmita Santra
   memberOf: [janus-authors]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: rhdh-qe
-  title: RHDH QE Title
-  namespace: default
-displayName: RHDH QE DN
-spec:
-  profile:
-    displayName: RHDH QE Profile DN
-  memberOf: [janus-authors]
 
