@@ -2,8 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: rhdh-qe
-  title: Debsmita Santra2
+  title: RHDH QE Title
 spec:
   profile:
-    displayName: Debsmita Santra2
+    displayName: RHDH QE DN
   memberOf: [janus-authors]
