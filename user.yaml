@@ -5,7 +5,7 @@ metadata:
   title: Debsmita Santra
 spec:
   profile:
-    # displayName: Debsmita Santra DN
+    displayName: Debsmita Santra DN
     email: debsmita.santra@gmail.com
   memberOf: [janus-authors]
 
