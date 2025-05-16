@@ -4,7 +4,7 @@ metadata:
   name: debsmita1
   title: Debsmita Santra
 spec:
-  profile:
+  # profile:
     # displayName: Debsmita Santra DN
   memberOf: [janus-authors]
 
