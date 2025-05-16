@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: debsmita1
-  # title: Debsmita Santra
+  title: Debsmita Santra
 spec:
   profile:
     # displayName: Debsmita Santra DN
