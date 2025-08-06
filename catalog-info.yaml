@@ -12,6 +12,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: janus-idp/backstage-showcase
     'jfrog-artifactory/image-name': 'test'
+    servicenow.com/entity-id: my-servicenow-entity-id
     nexus-repository-manager/docker.image-name: sonatype/nexus3
     google.com/doc-url: https://docs.google.com/document/d/1oj4ZAU__IZgpYmLNSSSrb_k50NBXSS_bW_nKOswjcZQ
 spec:
