@@ -15,6 +15,7 @@ metadata:
     servicenow.com/entity-id: website-for-my-nice-service
     nexus-repository-manager/docker.image-name: sonatype/nexus3
     google.com/doc-url: https://docs.google.com/document/d/1oj4ZAU__IZgpYmLNSSSrb_k50NBXSS_bW_nKOswjcZQ
+    npm/package: react
 spec:
   type: service
   lifecycle: unknown
