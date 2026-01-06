@@ -5,7 +5,8 @@ metadata:
   labels: 
     component: backstage-workloads
   annotations:
-    quay.io/repository-slug: janus-idp/backstage-showcase
+    quay.io/repository-slug: rhdh/rhdh-hub-rhel9
+    # quay.io/repository-slug: janus-idp/backstage-showcase
     backstage.io/kubernetes-id: my-backstage
     janus-idp.io/tekton: my-backstage
     #dev.azure.com/project-repo: my-project/my-repo
