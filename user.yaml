@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: debsmita1
+  namespace: default
+  title: Debsmita Santra
+spec:
+  profile:
+    displayName: Debsmita Santra DN
+    email: debsmita.santra@gmail.com
