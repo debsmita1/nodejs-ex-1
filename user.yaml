@@ -8,4 +8,5 @@ spec:
   profile:
     displayName: Debsmita Santra DN
     email: debsmita.santra@gmail.com
-  memberOf: [admins]
+    memberOf: []
+  # memberOf: [admins]
